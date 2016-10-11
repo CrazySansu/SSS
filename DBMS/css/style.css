@@ -125,10 +125,13 @@ body{
 {
 	#nav-list{
 		clear: left;
+<<<<<<< HEAD
 		padding: 0;
 		float: left !important;
 	}
 	#brand{
 		padding: 0;
+=======
+>>>>>>> d43d841ca1d9d0440f8d846b184f13fabbfd0fde
 	}
 }
