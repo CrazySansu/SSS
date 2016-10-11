@@ -123,5 +123,12 @@ body{
 }
 @media (max-width: 799px)
 {
-	
+	#nav-list{
+		clear: left;
+		padding: 0;
+		float: left !important;
+	}
+	#brand{
+		padding: 0;
+	}
 }
