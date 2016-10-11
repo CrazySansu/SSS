@@ -2,28 +2,26 @@ body{
 	background-color: #FF6800; /*Orange*/
 	font-size: 16px;
 	color: #000; /* Black */
-}
-*{
-	box-sizing: border-box;
-}
-#whole{
 	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
 }
+*{
+	box-sizing: border-box;
+}
 .container{
 	margin-left: auto;
 	margin-right: auto;
-	width: 970px;
+	width: 100%;
 }
 
 
 /*Header*/
 #header-nav{
-	background-color: #fff; /*White*/
+	background-color: #FFA261;
 	border: 0;
 	border-radius: 0;
-
+	margin-bottom: 5px;
 }
 
 #logo-img{
@@ -45,17 +43,85 @@ body{
 } 
 
 #nav-list {
-	margin-top: 25px;
-	margin-right: 0;
+	margin-top: 30px;
+	float: right !important;
+	margin-right: 0px;
+	list-style: none;
+	width: 400px;
+	font-size: 1.1em;
 }
+
 #nav-list li{
-	
+	position: relative;
+	display: block;
+	float: left;
 }
-#nav-list a{
-	padding: 5px;
-	padding-right: 15px;
-	padding-left: 15px;
-	border-right: 1px solid black;
+
+#nav-list li a{
+	padding: 10px;
+	line-height: 20px;
 	text-align: center;
+	color: black;
+}
+#nav-list li a:hover, #nav-list li a:focus{
+	text-decoration: none;
+	font-style: italic;
+	font-weight: bolder;
+	background-color: #FF6800;
+	/*font-size: 1.2em;*/
+}
+#log-btn{
+	background-color: #FF6800;
+	border-color: #FF9800;
+}
+#log-btn a{
+	color: white;
+}
+#log-btn a:hover, #log-btn a:focus{
+	text-decoration: none;
 }
 /*End of Header*/
+
+/*Main Content*/
+#main{
+	background-color: #FFA261;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	margin-bottom: 5px;
+}
+/*End of Main Content*/
+/*Footer*/
+#footerr{
+	text-align: center;
+	background-color: #FFA261;
+	border: 0;
+}
+
+#footerr p{
+	color: black;
+}
+.size{
+	position: relative;
+ 	min-height: 1px;
+  	padding-right: 15px;
+  	padding-left: 15px;
+  	float: left;
+  	width: 50%;
+}
+/*End of Footer*/
+
+@media (max-width: 1099px){
+	body{
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#main{
+		/*background-color: white;*/
+	}
+}
+@media (max-width: 799px)
+{
+	
+}
