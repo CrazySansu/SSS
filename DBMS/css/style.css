@@ -114,8 +114,8 @@ body{
 @media (max-width: 1099px){
 	body{
 		width: 100%;
-		margin-left: auto;
-		margin-right: auto;
+		/*margin-left: auto;*/
+		/*margin-right: auto;*/
 	}
 	#main{
 		/*background-color: white;*/
@@ -128,7 +128,5 @@ body{
 		padding: 0;
 		float: left !important;
 	}
-	#brand{
-		padding: 0;
-	}
+	
 }
