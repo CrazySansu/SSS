@@ -2,7 +2,7 @@ body{
 	background-color: #FF6800; /*Orange*/
 	font-size: 16px;
 	color: #000; /* Black */
-	width: 70%;
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -13,7 +13,12 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
+	padding: 0;
 }
+
+
+
+
 
 
 /*Header*/
@@ -82,15 +87,72 @@ body{
 }
 /*End of Header*/
 
+
+
+
+
 /*Main Content*/
 #main{
 	background-color: #FFA261;
 	text-align: center;
-	font-weight: bold;
-	font-size: 2em;
+	/*font-weight: bold;*/
 	margin-bottom: 5px;
+}#pillss{
+	background-color: #FF8837;
+}
+#pillss a{
+	color: white;
+	text-shadow: 1px 1px 1px #000;
+	font-size: 1.5em;
+}
+#pillss a:hover, #pills a:focus{
+	background-color: #FF6800;
+}
+#pillss li.active a{
+	background-color: #FF6800;
+}
+#hrr{
+	border-top: 2px solid black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 90%;
+}
+
+#pizza section h3{
+	height: 50px;
+}
+
+.category-tile{
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto 15px;
+}
+.category-tile img{
+	width: 200px;
+	height: 200px;
+}
+.category-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	top: 165px;
+	padding:7.5px 6.5px 7.5px 7.5px;
+	background-color: #000;
+	color:#fff;
+	opacity: 0.8;
+}
+.category-tile:hover{
+	box-shadow: 1px 2px 6px 2px #FF6800;
 }
 /*End of Main Content*/
+
+
+
+
+
 /*Footer*/
 #footerr{
 	text-align: center;
@@ -114,19 +176,38 @@ body{
 @media (max-width: 1099px){
 	body{
 		width: 100%;
-		/*margin-left: auto;*/
-		/*margin-right: auto;*/
 	}
 	#main{
-		/*background-color: white;*/
+
 	}
 }
-@media (max-width: 799px)
+@media (max-width: 1270px) and (min-width: 890px){
+	#pizza section{
+		position: relative;
+  		min-height: 1px;
+  		padding-right: 15px;
+  		padding-left: 15px;
+  		float: left;
+  		width: 33.33333333%;
+	}
+}
+@media (max-width: 889px) and (min-width: 590px){
+	#pizza section{
+		position: relative;
+  		min-height: 1px;
+  		padding-right: 15px;
+  		padding-left: 15px;
+  		float: left;
+  		width: 50%;
+	}
+}
+
+@media (max-width: 650px)
 {
 	#nav-list{
 		clear: left;
 		padding: 0;
-		float: left !important;
+		width: 380px;
 	}
 	
 }

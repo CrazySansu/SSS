@@ -11,57 +11,175 @@
 
 <body>
 <header>
-<nav id= "header-nav" class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <a class="" href="index.html">
-        <div id="logo-img" alt="Logo" class="visible-md visible-lg visible-sm"  ></div>
-      </a>
+	<nav id= "header-nav" class="navbar navbar-default">
+ 	<div class="container">
+   		<div class="navbar-header">
+      	<a class="" href="loginn.html">
+        	<div id="logo-img" alt="Logo" class="visible-md visible-lg visible-sm"  ></div>
+      	</a>
     </div>
     <div id = "brand" class="navbar-brand">
-    	<a href="index.html"><h1>SSS Pizza</h1></a>
+    	<a href="loginn.html"><h1>SSS Pizza</h1></a>
     </div>
     <div>
     	<ul id="nav-list" class="">
-    		<li><a href="#">Home</a></li>
-    		<li ><a href="#">Menu</a></li>
-    		<button id="log-btn" style="margin-left: 20%"><a href="#" style="float: left;">log in/sign up</a></button>
+    		<li><a href="loginn.html">Home</a></li>
+    		<li ><a href="index.html">Menu</a></li>
+    		<button id="log-btn" style="margin-left: 20%"><a href="signupp.html" style="float: left;">log in/sign up</a></button>
        	</ul>
     	
     	<!-- log in/sign up link -->
     </div>
     
-  </div>
-</nav>
+  	</div>
+	</nav>
 </header>
+
 <!-- MAIN CONTENT -->
-<div id="main" class="container">
-	<p>
-		Main Content of Website
-		<br>
-		<br>
-		<br>
-		<br>
-	</p>
+  <div id="main" class="container">
+
+<!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation"  class="active" ><a href="#pizza" aria-controls="pizza" role="tab" data-toggle="tab">Pizza</a></li>
+    <li role="presentation"><a href="#sides" aria-controls="sides" role="tab" data-toggle="tab">Sides</a></li>
+    <!-- <li role="presentation"><a href="#myo" aria-controls="myo" role="tab" data-toggle="tab">Make your own</a></li> -->
+    <button style="float: right"> <a href="signupp.html"> Checkout</a></button>
+  </ul>
+<!--  -->
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane fade active" id="pizza">
+    	<nav class="row">
+    		<section class="col-lg-3">
+    			<h3>Veg Extravaganza</h3>
+    			<div class="category-tile">
+    				<img src="../Images/vegE.png" alt="image">
+    				<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+    			</div>
+    		</section>
+
+    		<section class="col-lg-3">
+    			<h3>Peppy Paneer</h3>
+    			<div class="category-tile">
+    				<img src="../Images/peppy.png" alt="image">
+    				<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+    			</div>
+    		</section>
+    		
+    		<section class="col-lg-3">
+    			<h3>Spicy Triple Tango</h3>
+    			<div class="category-tile">
+    				<img src="../Images/spicy.jpg" alt="image">
+    				<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>  			
+    			</div>
+    		</section>
+
+    		<section class="col-lg-3">
+    			<h3>Double Cheese Margherita</h3>
+    			<div class="category-tile">
+    				<img src="../Images/dcm.png" alt="image">
+					<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>    
+				</div>
+    		</section>
+    		<hr style="width: 90% ; border-top: 1px solid #fff;">
+    		<section class="col-lg-3" style="clear: left;">
+    			<h3>Chicken Mexicana</h3>
+    			<div class="category-tile">
+    				<img src="../Images/chknmx.png" alt="image">
+    				<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+    			</div>
+    		</section>
+
+    		<section class="col-lg-3">
+    			<h3>Chicken Golden Delight</h3>
+    			<div class="category-tile">
+	    			<img src="../Images/cgd.png" alt="image">
+					<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>    
+				</div>
+    		</section>
+    		
+    		<section class="col-lg-3">
+    			<h3>Chicken Lovers</h3>
+    			<div class="category-tile">
+    				<img src="../Images/chknlvrs.jpg" alt="image">
+    				<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+    			</div>
+    		</section>
+
+    		<section class="col-lg-3">
+    			<h3>Chicken Fiesta</h3>
+    			<div class="category-tile">
+    				<img src="../Images/fiesta.png" alt="image">
+    				<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+    			</div>
+    		</section>    		
+    	</nav>
+    </div>
+
+    <div role="tabpanel" class="tab-pane fade" id="sides">
+    	<nav id="pizza" class="row">
+    		<section class="col-lg-3">
+    			<h3>Cheese Jalapeno Dip</h3>
+    			<div class="category-tile">
+    				<img src="../Images/cjd.png" alt="image">
+					<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>    
+				</div>
+    		</section>
+    		
+    		<section class="col-lg-3">
+    			<h3>Cheesy Dip</h3>
+    			<div class="category-tile">
+    				<img src="../Images/cd.png" alt="image">
+			 		<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>   	
+			 	</div>
+    		</section>
+    		
+    		<section class="col-lg-3">
+    			<h3>Coke</h3>
+    			<div class="category-tile">
+    				<img src="../Images/Coke.png" alt="image">
+    				<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+    			</div>
+    			
+    		</section>
+
+    		<section class="col-lg-3">
+    			<h3>Stuffed Garlic Bread</h3>
+    			<div class="category-tile">
+    				<img src="../Images/sgb.png" alt="image">
+					<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>    
+				</div>
+    		</section>
+    	</nav>
+    </div>
+
+    <!-- <div role="tabpanel" class="tab-pane" id="myo">
+    	
+    </div> -->	
+  </div>
+
 </div>
+
 <!-- END OF MAIN CONTENT -->
+
 <footer id="footerr" class="panel-footer">
 	<div class="container">
 		<div class="row">
-			<section class="size">
+			<div class="size">
 				<p> DBMS Mini Project By:<br>
 					Sonza Singh (1MS14IS106)<br>
 					Saniya Farahat (1MS14IS095)<br>
 					Sanskar Biad (1MS14IS096)
 				</p>
-			</section>
-			<section class="size">
+			</div>
+			<div class="size">
 				<p>
 					Contact us:<br>
 					email: xyz@abc.com><br>
 					Ph no.: 00-000 000
 				</p>
-			</section>
+			</div>
 		</div>
 		
 	</div>
